@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Environment variables (never commit API keys)
+.env
+.env.*
+
+# Node (if any session uses JS tooling)
+node_modules/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Word temp files
+~$*.docx
